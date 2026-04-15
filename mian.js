@@ -43,7 +43,7 @@ function appendValue(value) {
     inputfield.value += value;
 }
 
-// ⌨️ Keyboard support
+
 document.addEventListener("keydown", (e) => {
     if (!isNaN(e.key) || "+-*/.".includes(e.key)) {
         appendValue(e.key);
